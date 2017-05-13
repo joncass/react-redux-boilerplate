@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "rules": {
+    "brace-style": [2, "stroustrup"],
+    "capitalized-comments": [2, "always"],
+    "line-comment-position": [2, "above"],
+    "max-len": [2, 80, 2],
+    "require-jsdoc": [2],
+    "valid-jsdoc": [2],
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+  },
+  "globals": {
+    # Test harness globals
+    "describe": true,
+    "it": true,
+    "expect": true,
+  },
+}
